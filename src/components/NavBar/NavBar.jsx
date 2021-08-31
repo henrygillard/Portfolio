@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import * as userService from '../../utilities/users-service';
 
 // Not destructuring props this time
 export default function NavBar(props) {
