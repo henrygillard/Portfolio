@@ -11,7 +11,6 @@ export default function NavBar(props) {
   return (
     <nav>
       <Link to="/projects">My Projects</Link>
-      &nbsp; | &nbsp;
       <Link to="/about">About Me</Link>
       <div className="social-links">
       <a href="https://github.com/henrygillard" target="_blank" rel="noreferrer"><GitHubIcon /></a>

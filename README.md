@@ -1,3 +1,3 @@
-# MERN-Stack Infrastructure
+# Portfolio
 
-Clone this repo to provide the starter code for a comprehensive MERN-Stack project including token-based authentication.
+This portfolio includes 4 of my projects and was built using REACT.js, Node.js, and Express
