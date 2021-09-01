@@ -14,8 +14,8 @@ export default function NavBar(props) {
       &nbsp; | &nbsp;
       <Link to="/about">About Me</Link>
       <div>
-      <a href="https://github.com/henrygillard" target="_blank"><GitHubIcon /></a>
-      <a href="https://www.linkedin.com/in/henrygillard/" target="_blank"><LinkedInIcon /></a>
+      <a href="https://github.com/henrygillard" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+      <a href="https://www.linkedin.com/in/henrygillard/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
       </div>
     </nav>
   );

@@ -11,7 +11,7 @@ export default function Projects() {
             <div className="links">
                 <div className="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="https://i.imgur.com/SzaFXIy.png"></img>
+                        <img class="activator" alt="project-1" src="https://i.imgur.com/SzaFXIy.png"></img>
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">MERN APP: Palette Picker<i class="material-icons right"></i></span>
@@ -28,7 +28,7 @@ export default function Projects() {
                 
                 <div className="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="https://i.imgur.com/TvVcJ3R.png"></img>
+                        <img class="activator" alt="project-2" src="https://i.imgur.com/TvVcJ3R.png"></img>
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Express App: Shop-List<i class="material-icons right"></i></span>
@@ -44,7 +44,7 @@ export default function Projects() {
                 </div>
                 <div className="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="https://i.imgur.com/udqK9k1.png"></img>
+                        <img class="activator" alt="project-3" src="https://i.imgur.com/udqK9k1.png"></img>
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Vacations App<i class="material-icons right"></i></span>
@@ -59,7 +59,7 @@ export default function Projects() {
                 </div>
                 <div className="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="https://i.imgur.com/ay6pUHK.png"></img>
+                        <img class="activator" alt="project-4" src="https://i.imgur.com/ay6pUHK.png"></img>
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Browser Game: BlackJack<i class="material-icons right"></i></span>
