@@ -22,10 +22,10 @@ app.use(express.static(path.join(__dirname, 'build')));
 app.use(require('./config/checkToken'));
 
 // Put API routes here, before the "catch all" route
-app.use('/api/users', require('./routes/api/users'));
-const ensureLoggedIn = require('./config/ensureLoggedIn');
-app.use('/api/colors', ensureLoggedIn, require('./routes/api/colors'));
-app.use('/api/palettes', ensureLoggedIn, require('./routes/api/palettes'));
+// app.use('/api/users', require('./routes/api/users'));
+// const ensureLoggedIn = require('./config/ensureLoggedIn');
+// app.use('/api/colors', ensureLoggedIn, require('./routes/api/colors'));
+// app.use('/api/palettes', ensureLoggedIn, require('./routes/api/palettes'));
 
 // The following "catch all" route (note the *) 
 // is necessary to return the index.html on ALL

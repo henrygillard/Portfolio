@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
-import NavBar from '../../components/NavBar/NavBar';
+import NavBar from "../../components/NavBar/NavBar";
 import Projects from '../../components/Projects/Projects';
 import About from '../../components/About/About';
 
