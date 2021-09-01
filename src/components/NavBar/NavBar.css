@@ -1,8 +1,22 @@
 nav {
     display: flex;
     justify-content: space-around;
+    margin: 0;
+    background-color: #B51D0A;
 }
 
+.social-links {
+    display: flex;
+    width: 5rem;
+    justify-content: space-around;
+}
 
+nav a {
+    width: inherit;
 
+}
+
+nav a:hover {
+    background-color: #881607;
+}
 

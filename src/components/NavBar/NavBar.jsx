@@ -13,7 +13,7 @@ export default function NavBar(props) {
       <Link to="/projects">My Projects</Link>
       &nbsp; | &nbsp;
       <Link to="/about">About Me</Link>
-      <div>
+      <div className="social-links">
       <a href="https://github.com/henrygillard" target="_blank" rel="noreferrer"><GitHubIcon /></a>
       <a href="https://www.linkedin.com/in/henrygillard/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
       </div>

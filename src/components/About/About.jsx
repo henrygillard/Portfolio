@@ -6,8 +6,6 @@ export default function Projects() {
             <h1>About Me</h1>
             <div className="images">
                 <img src="https://i.imgur.com/t19hd23.jpg" alt="me-1" style={{width: "25rem", height: '32rem'}}></img>
-                <img src="https://i.imgur.com/XGEVayS.jpg" alt="me-2" style={{width: "23rem", height: '32rem'}}></img>
-                <img src="https://i.imgur.com/oqhuS09.jpg" alt="me-3" style={{width: "30rem", height: '28rem'}}></img>
             </div>
             <p>I am an aspiring Software Developer, 
                 recently graduated form General Assembly’s Software Engineering Immersive Program, 

@@ -1,6 +1,6 @@
 .card {
-    width: 25rem;
-    height: 25rem;
+    width: 39rem;
+    height: 36rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,7 @@
 
 .links {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     justify-items: center;
 }
 
@@ -20,4 +20,9 @@
 
 img:hover {
     opacity: 50%;
+}
+
+.container {
+    width: 65%;
+    background-color: #ffffff59;
 }

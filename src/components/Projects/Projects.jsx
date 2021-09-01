@@ -6,7 +6,7 @@ export default function Projects() {
 
 
     return(
-        <div>
+        <div className="container">
             <h1>My Projects</h1>
             <div className="links">
                 <div className="card">
@@ -15,7 +15,7 @@ export default function Projects() {
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">MERN APP: Palette Picker<i class="material-icons right"></i></span>
-                        <a href="https://pretty-palette-picker.herokuapp.com/">Palette Picker</a>
+                        <a href="https://pretty-palette-picker.herokuapp.com/" target="_blank">Palette Picker</a>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">MERN APP: Palette Picker<i class="material-icons right">close</i></span>
@@ -47,7 +47,7 @@ export default function Projects() {
                         <img class="activator" alt="project-3" src="https://i.imgur.com/udqK9k1.png"></img>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Vacations App<i class="material-icons right"></i></span>
+                        <span class="card-title activator grey-text text-darken-4">Python/Django APP: Vacations<i class="material-icons right"></i></span>
                         <a href="http://alephnullvacations.herokuapp.com/">Aleph Null Vacations</a>
                     </div>
                     <div class="card-reveal">
@@ -62,11 +62,11 @@ export default function Projects() {
                         <img class="activator" alt="project-4" src="https://i.imgur.com/ay6pUHK.png"></img>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Browser Game: BlackJack<i class="material-icons right"></i></span>
+                        <span class="card-title activator grey-text text-darken-4">HTML/CSS/Javascript Game: BlackJack<i class="material-icons right"></i></span>
                         <a href="https://henrygillard.github.io/BlackJackGame/">Casino BlackJack</a>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Browser Game: BlackJack<i class="material-icons right">close</i></span>
+                        <span class="card-title grey-text text-darken-4">HTML/CSS/JAVASCRIPT Game: BlackJack<i class="material-icons right">close</i></span>
                         <p>An in-browser application that was created using HTML/CSS/JAVASCRIPT. 
                         Wireframed and planned UI design of application  using Photoshop
                         Utilized Git control during the production of the application with frequent commits until deployment.
