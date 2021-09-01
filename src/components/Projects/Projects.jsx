@@ -6,6 +6,7 @@ export default function Projects() {
 
 
     return(
+        
         <div className="container">
             <h1>My Projects</h1>
             <div className="links">
@@ -15,7 +16,7 @@ export default function Projects() {
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">MERN APP: Palette Picker<i class="material-icons right"></i></span>
-                        <a href="https://pretty-palette-picker.herokuapp.com/" target="_blank">Palette Picker</a>
+                        <a href="https://pretty-palette-picker.herokuapp.com/" target="_blank"><span className="link-text">Palette Picker</span></a>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">MERN APP: Palette Picker<i class="material-icons right">close</i></span>
@@ -32,7 +33,7 @@ export default function Projects() {
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Express App: Shop-List<i class="material-icons right"></i></span>
-                        <a href="https://henrys-recipe-shopping-list.herokuapp.com/">Shop-List</a>
+                        <a href="https://henrys-recipe-shopping-list.herokuapp.com/" target="_blank"> <span className="link-text">Shop-List</span></a>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Express App: Shop-List<i class="material-icons right">close</i></span>
@@ -48,7 +49,7 @@ export default function Projects() {
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Python/Django APP: Vacations<i class="material-icons right"></i></span>
-                        <a href="http://alephnullvacations.herokuapp.com/">Aleph Null Vacations</a>
+                        <a href="http://alephnullvacations.herokuapp.com/" target="_blank"><span className="link-text">Aleph Null Vacations</span></a>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Aleph Null Vacations<i class="material-icons right">close</i></span>
@@ -63,7 +64,7 @@ export default function Projects() {
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">HTML/CSS/Javascript Game: BlackJack<i class="material-icons right"></i></span>
-                        <a href="https://henrygillard.github.io/BlackJackGame/">Casino BlackJack</a>
+                        <a href="https://henrygillard.github.io/BlackJackGame/" target="_blank"><span className="link-text">Casino BlackJack</span></a>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">HTML/CSS/JAVASCRIPT Game: BlackJack<i class="material-icons right">close</i></span>
@@ -76,6 +77,7 @@ export default function Projects() {
                 </div>
             </div>
         </div>
+        
         
     )
 }
