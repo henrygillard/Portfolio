@@ -2,3 +2,28 @@
     display: flex;
     justify-content: space-around;
 }
+
+p {
+    color: white;
+    padding: 2.5rem;
+}
+
+.about-me-links {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about-me-links > a {
+    color: white;
+    border: solid thin;
+    width: 100%;
+}
+
+svg {
+    
+}
+
+.about-me-links > a:hover {
+    background-color: #a5a1a1;
+}

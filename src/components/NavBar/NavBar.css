@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-around;
     margin: 0;
-    background-color: #B51D0A;
+    background-color: black;
 }
 
 .social-links {
@@ -17,6 +17,6 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #881607;
+    background-color: #737373;
 }
 

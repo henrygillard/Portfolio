@@ -13,6 +13,10 @@
     justify-items: center;
 }
 
+h1 {
+    color: white;
+}
+
 .card .card-title {
     font-size: 20px;
     font-weight: bold;
@@ -30,7 +34,7 @@ img:hover {
 .link-text {
     font-size: x-large;
     font-weight: bold;
-    background-color: #B51D0A;
+    background-color: #e600d2;
     color: white;
     padding: 0.5rem;
     border-radius: 7px;
