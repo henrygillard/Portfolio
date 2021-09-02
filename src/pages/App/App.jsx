@@ -14,6 +14,7 @@ export default function App() {
           <Switch>
             <Route path="/projects">
               <Projects />
+              <About />
             </Route>
             <Route path="/about">
               <About />

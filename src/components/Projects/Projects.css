@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Roboto+Slab&family=Tillana:wght@500&display=swap');
+
 .card {
     width: 39rem;
     height: 36rem;
@@ -18,8 +20,9 @@
     justify-items: center;
 }
 
-h1 {
+.container > h1 {
     color: white;
+    font-family: 'Kaisei Tokumin', serif;
 }
 
 .card .card-title {

@@ -3,12 +3,10 @@ import "./Projects.css"
 
 export default function Projects() {
 
-
-
     return(
         
         <div className="container">
-            <h1>My Projects</h1>
+            <h1><span>My Projects</span></h1>
             <div className="links">
                 <div className="card">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -26,7 +24,6 @@ export default function Projects() {
                         </p>
                     </div>
                 </div>
-                
                 <div className="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" alt="project-2" src="https://i.imgur.com/TvVcJ3R.png"></img>
