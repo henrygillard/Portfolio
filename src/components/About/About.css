@@ -3,9 +3,15 @@
     justify-content: space-around;
 }
 
+img {
+    padding: 10px;
+}
+
 p {
+    border-top: solid thin;
     color: white;
     padding: 2.5rem;
+    margin: 10px;
 }
 
 .about-me-links {
@@ -16,7 +22,7 @@ p {
 
 .about-me-links > a {
     color: white;
-    border: solid thin;
+    /* border: solid thin; */
     width: 100%;
 }
 
