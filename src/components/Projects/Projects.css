@@ -48,9 +48,14 @@ img:hover {
 
 @media screen and (max-width: 600px) {
 
+    h1 {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
     .card {
-        width: 30rem;
-        height: 35rem;
+        width: 20rem;
+        height: 28rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -69,7 +74,7 @@ img:hover {
 
     .container {
         width: 80%;
-        background-color: #ffffff59;
+        background-color: #5d5d5d42;
     }
 
     a {

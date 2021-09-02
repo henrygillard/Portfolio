@@ -7,7 +7,7 @@ export default function Projects() {
         <div className="container">
             <h1>About Me</h1>
             <div className="images">
-                <img src="https://i.imgur.com/t19hd23.jpg" alt="me-1" style={{width: "25rem", height: '32rem'}}></img>
+                <img src="https://i.imgur.com/t19hd23.jpg" alt="me-1"></img>
             </div>
            
             <p>I am an aspiring Software Developer, 

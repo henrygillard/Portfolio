@@ -4,6 +4,7 @@
 }
 
 img {
+    width: 100%;
     padding: 10px;
 }
 
@@ -32,4 +33,10 @@ svg {
 
 .about-me-links > a:hover {
     background-color: #a5a1a1;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 100%;
+    }
 }
