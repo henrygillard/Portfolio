@@ -23,7 +23,7 @@ export default function Projects() {
                 <a href="https://github.com/henrygillard" target="_blank" rel="noreferrer" style={{borderRight: 'solid thin'}}><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/henrygillard/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
             </div>
-            <Link to="/checkout">Buy Me a Coffee </Link> 
+            <Link to="/checkout"><button>Buy Me a Coffee </button></Link> 
         </div>
     )
 }

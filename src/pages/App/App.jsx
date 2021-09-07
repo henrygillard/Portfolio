@@ -7,11 +7,11 @@ import Footer from "../../components/Footer/Footer"
 import About from '../../components/About/About';
 
 const ProductDisplay = () => (
-  <section>
+  <section className="container">
     <div className="product">
       <div className="description">
-      <h3>Coffee</h3>
-      <h5>$5.00</h5>
+      <h3 style={{color: 'white'}}>Coffee</h3>
+      <h5 style={{color: 'white'}}>$5.00</h5>
       </div>
     </div>
     <form action="/create-checkout-session" method="POST">
