@@ -1,3 +1,4 @@
+const stripe = require('stripe')('sk_test_51JX7nEHofPNnQGYeE0BADEIhrvz1G54JP86qzOVrdOdI3lb2BUmI0JDPWyvn6Jj6VpFViE07IKfG5aJscSqnp2uq009M8BJ6cs');
 const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
@@ -18,6 +19,26 @@ app.use(express.json());
 // middleware to server from the 'build' folder
 app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static('public'));
+
+const YOUR_DOMAIN = 'http://localhost:3000/checkout';
+app.post('/create-checkout-session', async (req, res) => {
+  const session = await stripe.checkout.sessions.create({
+    line_items: [
+      {
+        price: 'price_1JXABUHofPNnQGYe8rcJGTQr',
+        quantity: 1,
+      },
+    ],
+    payment_method_types: [
+      'card',
+    ],
+    mode: 'payment',
+    success_url: `${YOUR_DOMAIN}?success=true`,
+    cancel_url: `${YOUR_DOMAIN}?canceled=true`,
+  });
+  res.redirect(303, session.url)
+});
 
 // app.use(require('./config/checkToken'));
 
@@ -37,7 +58,7 @@ app.get('/*', function(req, res) {
 
 // Configure express app to listen on port 3001
 // to avoid conflicting with the react server
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 app.listen(port, function() {
   console.log(`Express app running on port ${port}`);
