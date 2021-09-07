@@ -9,8 +9,31 @@ require('dotenv').config();
 // Connect to the server
 // Make sure that dotenv is already required
 require('./config/database');
-
+const endpointSecret = 'whsec_BB6MoeZtt0FtaTMJk67XnGNp5ZckCySL'
 const app = express();
+
+const bodyParser = require('body-parser');
+
+const fulfillOrder = (session) => {
+  // TODO: fill me in
+  console.log("Fulfilling order", session);
+}
+
+app.post('/webhook', bodyParser.raw({type: 'application/json'}), (request, response) => {
+  const payload = request.body;
+
+  if (event.type === 'checkout.session.completed') {
+    const session = event.data.object;
+
+    // Fulfill the purchase...
+    fulfillOrder(session);
+  }
+
+
+  console.log("Got payload: " + payload);
+
+  response.status(200);
+});
 
 app.use(logger('dev'));
 // body parser middleware - adds properties to req.body
@@ -24,6 +47,12 @@ app.use(express.static('public'));
 const YOUR_DOMAIN = 'http://localhost:3000/checkout';
 app.post('/create-checkout-session', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
+    customer_email: 'customer@example.com',
+    submit_type: 'donate',
+    billing_address_collection: 'auto',
+    shipping_address_collection: {
+      allowed_countries: ['US', 'CA'],
+    },
     line_items: [
       {
         price: 'price_1JXABUHofPNnQGYe8rcJGTQr',
