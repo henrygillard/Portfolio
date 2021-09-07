@@ -1,4 +1,4 @@
-const stripe = require('stripe')('sk_test_51JX7nEHofPNnQGYeE0BADEIhrvz1G54JP86qzOVrdOdI3lb2BUmI0JDPWyvn6Jj6VpFViE07IKfG5aJscSqnp2uq009M8BJ6cs');
+const stripe = require('stripe')('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');
 const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
@@ -22,13 +22,7 @@ const fulfillOrder = (session) => {
 app.post('/webhook', bodyParser.raw({type: 'application/json'}), (request, response) => {
   const payload = request.body;
 
-  if (event.type === 'checkout.session.completed') {
-    const session = event.data.object;
-
-    // Fulfill the purchase...
-    fulfillOrder(session);
-  }
-
+  
 
   console.log("Got payload: " + payload);
 
@@ -55,7 +49,7 @@ app.post('/create-checkout-session', async (req, res) => {
     },
     line_items: [
       {
-        price: 'price_1JXABUHofPNnQGYe8rcJGTQr',
+        price: 'price_1JXDc9HofPNnQGYeXifca6Vi',
         quantity: 1,
       },
     ],

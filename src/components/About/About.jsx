@@ -1,4 +1,5 @@
 import "./About.css"
+import { Link } from "react-router-dom";
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
 
@@ -7,7 +8,7 @@ export default function Projects() {
     return(
 
         <div className="container">
-            <h1>About Me</h1>
+            <h1>About Me!</h1>
             <p>I am an aspiring Software Developer, 
                 recently graduated form General Assembly’s Software Engineering Immersive Program, 
                 and a Musician. I love blending my passion for creativity/art with tech. 
@@ -22,6 +23,7 @@ export default function Projects() {
                 <a href="https://github.com/henrygillard" target="_blank" rel="noreferrer" style={{borderRight: 'solid thin'}}><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/henrygillard/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
             </div>
+            <Link to="/checkout">Buy Me a Coffee </Link> 
         </div>
     )
 }
