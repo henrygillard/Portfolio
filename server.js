@@ -1,11 +1,11 @@
-const stripe = require('stripe')('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');
+require('dotenv').config();
+const stripe = require('stripe')(process.env.SECRET_KEY);
 const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
 
 // Always require near the top
-require('dotenv').config();
 // Connect to the server
 // Make sure that dotenv is already required
 require('./config/database');
