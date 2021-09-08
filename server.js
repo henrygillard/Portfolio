@@ -38,7 +38,7 @@ app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, 'build')));
 app.use(express.static('public'));
 
-const YOUR_DOMAIN = 'https:https://henrygillard.herokuapp.com/checkout';
+const YOUR_DOMAIN = 'https://henrygillard.herokuapp.com/checkout';
 app.post('/create-checkout-session', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
     customer_email: 'customer@example.com',
