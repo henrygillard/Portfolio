@@ -5,22 +5,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Projects from '../../components/Projects/Projects';
 import Footer from "../../components/Footer/Footer"
 import About from '../../components/About/About';
-
-const ProductDisplay = () => (
-  <section className="container">
-    <div className="product">
-      <div className="description">
-      <h3 style={{color: 'white'}}>Coffee</h3>
-      <h5 style={{color: 'white'}}>$5.00</h5>
-      </div>
-    </div>
-    <form action="/create-checkout-session" method="POST">
-      <button type="submit">
-        Checkout
-      </button>
-    </form>
-  </section>
-);
+import ProductDisplay from '../../components/ProductDisplay/ProductDisplay';
 
 const Message = ({ message }) => (
   <section>
@@ -48,26 +33,25 @@ export default function App() {
 
   return (
     <main className="App">
-      
-          <NavBar />
-          <Switch>
-            <Route path="/projects">
-              <Projects />
-              <About />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/checkout">
-            {message ? (
-    <Message message={message} />
-  ) : (
-    <ProductDisplay />
-  )}
-              </Route>
-            <Redirect to="/projects" />
-          </Switch>
-            <Footer />
+      <NavBar />
+      <Switch>
+        <Route path="/projects">
+          <Projects />
+          <About />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/checkout">
+        {message ? (
+        <Message message={message} />
+        ) : (
+        <ProductDisplay />
+        )}
+          </Route>
+        <Redirect to="/projects" />
+      </Switch>
+        <Footer />
     </main>
   );
 }

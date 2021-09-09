@@ -2,9 +2,19 @@ import "./About.css"
 import { Link } from "react-router-dom";
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+      '& > *': {
+        margin: theme.spacing(1),
+      },
+    },
+  }));
 
 export default function Projects() {
-    
+    const classes = useStyles();
     return(
 
         <div className="container">
@@ -23,7 +33,7 @@ export default function Projects() {
                 <a href="https://github.com/henrygillard" target="_blank" rel="noreferrer" style={{borderRight: 'solid thin'}}><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/henrygillard/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
             </div>
-            <Link to="/checkout"><button>Buy Me a Coffee </button></Link> 
+            <Link className={classes.root} to="/checkout"><Button variant="contained">Buy Me a Coffee </Button></Link> 
         </div>
     )
 }
