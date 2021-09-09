@@ -15,7 +15,7 @@ export default function ProductDisplay() {
         <section className="container">
     <div className="product">
       <div className="description">
-      <h3 style={{color: 'white'}}>Coffee</h3>
+      <h3 style={{color: 'white'}}>☕️</h3>
       <h5 style={{color: 'white'}}>$5.00</h5>
       </div>
     </div>

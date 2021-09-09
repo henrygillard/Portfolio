@@ -4,6 +4,8 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import ProductDisplay from "../ProductDisplay/ProductDisplay";
+import { useState } from "react";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -14,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
   }));
 
 export default function Projects() {
+    const [selected, setSelected] = useState(false)
     const classes = useStyles();
     return(
 
@@ -33,7 +36,16 @@ export default function Projects() {
                 <a href="https://github.com/henrygillard" target="_blank" rel="noreferrer" style={{borderRight: 'solid thin'}}><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/henrygillard/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
             </div>
-            <Link className={classes.root} to="/checkout"><Button variant="contained">Buy Me a Coffee </Button></Link> 
+            <div className={classes.root}>
+            <Button  onClick={() => setSelected(true)} variant="contained">Buy Me a Coffee </Button> 
+            </div>
+            {selected ?
+            <>
+            <ProductDisplay />
+            <hr />
+            </>
+            :<hr />
+         }
         </div>
     )
 }

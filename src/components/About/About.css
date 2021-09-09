@@ -27,8 +27,8 @@ p {
     width: 100%;
 }
 
-svg {
-    
+.test {
+    border: none;
 }
 
 .about-me-links > a:hover {
