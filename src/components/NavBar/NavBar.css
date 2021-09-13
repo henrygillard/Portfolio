@@ -1,18 +1,22 @@
 nav {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    /* justify-content: space-around; */
     margin: 0;
     background-color: black;
+    border: solid;
+    height: 100%;
+    width: 100%;
+    grid-area: a;
 }
 
 .social-links {
     display: flex;
-    width: 8rem;
     justify-content: space-around;
 }
 
 nav a {
-    width: inherit;
+    width: 100%;
 
 }
 

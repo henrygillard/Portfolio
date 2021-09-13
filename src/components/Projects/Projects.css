@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Roboto+Slab&family=Tillana:wght@500&display=swap');
 
 .card {
-    width: 39rem;
-    height: 36rem;
+    width: 100%;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,9 @@ img:hover {
 }
 
 .container {
-    width: 65%;
+    grid-area: b;
+    padding: 1rem;
+    width: 75%;
     border-radius: 5px;
     background-color: #5d5d5d42;
     margin-bottom: 1rem;

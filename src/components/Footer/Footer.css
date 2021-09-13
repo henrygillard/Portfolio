@@ -18,6 +18,8 @@ footer > .social-links {
 footer a {
     width: inherit;
     color: white;
+    display: flex;
+    justify-content: center;
 
 }
 

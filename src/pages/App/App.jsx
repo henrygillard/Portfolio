@@ -32,12 +32,12 @@ export default function App() {
  
 
   return (
+    <>
     <main className="App">
       <NavBar />
       <Switch>
         <Route path="/projects">
           <Projects />
-          <About />
         </Route>
         <Route path="/about">
           <About />
@@ -51,7 +51,8 @@ export default function App() {
           </Route>
         <Redirect to="/projects" />
       </Switch>
-        <Footer />
     </main>
+        <Footer />
+    </>
   );
 }
