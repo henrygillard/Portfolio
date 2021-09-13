@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from "@material-ui/icons/LinkedIn"
 
 import "./NavBar.css"
 
@@ -12,10 +10,6 @@ export default function NavBar(props) {
     <nav>
       <Link to="/projects">My Projects</Link>
       <Link to="/about">About Me</Link>
-      <div className="social-links">
-      <a href="https://github.com/henrygillard" target="_blank" rel="noreferrer"><GitHubIcon /></a>
-      <a href="https://www.linkedin.com/in/henrygillard/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
-      </div>
     </nav>
   );
 }
