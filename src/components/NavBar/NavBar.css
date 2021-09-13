@@ -4,7 +4,7 @@ nav {
     /* justify-content: space-around; */
     margin: 0;
     background-color: black;
-    border: solid;
+    /* border: solid; */
     height: 100%;
     width: 100%;
     grid-area: a;
@@ -17,6 +17,7 @@ nav {
 
 nav a {
     width: 100%;
+    border-bottom: solid thin;
 
 }
 

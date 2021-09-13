@@ -35,6 +35,7 @@ img:hover {
 }
 
 .container {
+    margin-top: 1rem;
     grid-area: b;
     padding: 1rem;
     width: 75%;

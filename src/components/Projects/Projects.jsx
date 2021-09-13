@@ -22,6 +22,7 @@ export default function Projects() {
                         Created an application with a mobile-first approach and styled using Styled-Components and CSS3 with flexbox layouts.
                         The app allows a user to dynamically style the elements of the app by selecting colors in color palettes. A user can create and delete data in the mongo database using forms in the application.
                         </p>
+                        <a href="https://pretty-palette-picker.herokuapp.com/" target="_blank"><span className="link-text">Palette Picker</span></a>
                     </div>
                 </div>
                 <div className="card">
@@ -38,6 +39,7 @@ export default function Projects() {
                         Created an application with a mobile-first approach and styled using Styled-Components and CSS3 with flexbox layouts.
                         The app allows the user to create data for ingredients for a recipe, which stores that data in the app, and allows the user to manipulate the data by updating and deleting recipes/ingredients and adding comments such as directions and cook time.
                         </p>
+                        <a href="https://henrys-recipe-shopping-list.herokuapp.com/" target="_blank"> <span className="link-text">Shop-List</span></a>
                     </div>
                 </div>
                 <div className="card">
@@ -53,6 +55,7 @@ export default function Projects() {
                         <p>A Full CRUD App designed for users to post vacation stories and upload images to amazon’s S3 cloud service.  
                             The app utilizes Django’s web framework, PostgreSQL database system and Python3.
                         </p>
+                        <a href="http://alephnullvacations.herokuapp.com/" target="_blank"><span className="link-text">Aleph Null Vacations</span></a>
                     </div>
                 </div>
                 <div className="card">
@@ -70,6 +73,7 @@ export default function Projects() {
                         Utilized Git control during the production of the application with frequent commits until deployment.
                         The game is a fully functioning BlackJack game with features such as CSS Card libraries, interactive sound based on game scenarios, and betting logic.
                         </p>
+                        <a href="https://henrygillard.github.io/BlackJackGame/" target="_blank"><span className="link-text">Casino BlackJack</span></a>
                     </div>
                 </div>
             </div>
