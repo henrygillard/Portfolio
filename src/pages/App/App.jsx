@@ -9,7 +9,9 @@ import ProductDisplay from '../../components/ProductDisplay/ProductDisplay';
 
 const Message = ({ message }) => (
   <section>
+    <div className="container">
     <p>{message}</p>
+    </div>
   </section>
 );
 

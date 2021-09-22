@@ -5,6 +5,14 @@ const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
 
+const endpoint = stripe.webhookEndpoints.create({
+  url: 'https://henrygillard.herokuapp.com/webhooks/endpoint',
+  enabled_events: [
+    'charge.failed',
+    'charge.succeeded',
+  ],
+});
+
 // Always require near the top
 // Connect to the server
 // Make sure that dotenv is already required
@@ -76,7 +84,7 @@ app.get('/*', function(req, res) {
 
 // Configure express app to listen on port 3001
 // to avoid conflicting with the react server
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 app.listen(port, function() {
   console.log(`Express app running on port ${port}`);
