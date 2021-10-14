@@ -1,11 +1,21 @@
 footer {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: 0;
     background-color: black;
-    height: 3rem;
     align-items: center;
-    grid-area: b;
+    padding: 1rem;
+    color: black;
+}
+
+.coffee-button {
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+
 }
 
 footer > .social-links {
@@ -19,6 +29,14 @@ footer > .social-links {
 footer a {
     width: inherit;
     color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer a:hover {
+    width: inherit;
+    border-bottom: 0.1875rem solid white;
     display: flex;
     justify-content: center;
 

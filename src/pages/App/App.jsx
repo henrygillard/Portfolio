@@ -6,6 +6,8 @@ import Projects from '../../components/Projects/Projects';
 import Footer from "../../components/Footer/Footer"
 import About from '../../components/About/About';
 import ProductDisplay from '../../components/ProductDisplay/ProductDisplay';
+import Header from '../../components/Header/Header';
+import Particles from 'react-particles-js';
 
 const Message = ({ message }) => (
   <section>
@@ -37,24 +39,18 @@ export default function App() {
     <>
     <main className="App">
       <NavBar />
-      <Switch>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/checkout">
+      <Header />
+      <About />
+      <Projects />
+      <Route path="/checkout">
         {message ? (
         <Message message={message} />
         ) : (
         <ProductDisplay />
         )}
-          </Route>
-        <Redirect to="/projects" />
-      </Switch>
+      </Route>
     </main>
-        <Footer />
+      <Footer />
     </>
   );
 }

@@ -5,7 +5,7 @@ export default function Projects() {
 
     return(
         
-        <div className="container">
+        <section id="projects" className="projects-container" >
             <h1><span>My Projects</span></h1>
             <div className="links">
                 <div className="card">
@@ -77,7 +77,7 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         
         
     )

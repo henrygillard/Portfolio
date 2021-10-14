@@ -5,13 +5,13 @@ const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
 
-const endpoint = stripe.webhookEndpoints.create({
-  url: 'https://henrygillard.herokuapp.com/webhooks/endpoint',
-  enabled_events: [
-    'charge.failed',
-    'charge.succeeded',
-  ],
-});
+// const endpoint = stripe.webhookEndpoints.create({
+//   url: 'https://henrygillard.herokuapp.com/webhooks/endpoint',
+//   enabled_events: [
+//     'charge.failed',
+//     'charge.succeeded',
+//   ],
+// });
 
 // Always require near the top
 // Connect to the server

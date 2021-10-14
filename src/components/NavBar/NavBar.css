@@ -1,13 +1,10 @@
 nav {
     display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
+    flex-direction: row;
     margin: 0;
     background-color: black;
-    /* border: solid; */
     height: 100%;
     width: 100%;
-    grid-area: a;
 }
 
 .social-links {
