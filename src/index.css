@@ -9,7 +9,6 @@
   --tan-4: #252424;
   --orange: #B51D0A;
   --text-light: #968c84;
-  --text-dark: #615954;
 }
 
 *, *:before, *:after {
@@ -119,7 +118,7 @@ button, a.button {
   margin: 1vmin;
   padding: 1vmin;
   color: var(--white);
-  background-color: var(--orange);
+  background-color: black;
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
@@ -140,10 +139,6 @@ button.btn-xs {
   padding: .4vmin .5vmin;
 }
 
-button:disabled, form:invalid button[type="submit"] {
-  cursor: not-allowed;
-  background-color: var(--tan-4);
-}
 
 button[type="submit"] {
   grid-column: span 2;

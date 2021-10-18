@@ -6,7 +6,7 @@ footer {
     background-color: black;
     align-items: center;
     padding: 1rem;
-    color: black;
+    color: white;
 }
 
 .coffee-button {
@@ -18,11 +18,19 @@ footer {
 
 }
 
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1rem;
+}
+
 footer > .social-links {
     display: flex;
-    width: 100%;
+    margin: 1rem;
+    width: 10rem;
     height: 2rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 

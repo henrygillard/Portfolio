@@ -6,8 +6,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
-    margin: 0;
+    color: rgb(255, 255, 255);
+    margin: 1rem;
     background-color: #252424;
 }
 
@@ -15,11 +15,15 @@
     color: black;
 }
 
+span > .card-title {
+    color: white;
+}
+
 .links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
     justify-items: center;
+    margin: 1rem;
 }
 
 .container > h1 {
@@ -55,7 +59,8 @@ img:hover {
 .link-text {
     font-size: x-large;
     font-weight: bold;
-    background-color: #e600d2;
+    background-color: black;
+    border: solid white thin;
     color: white;
     padding: 0.5rem;
     border-radius: 7px;
@@ -81,20 +86,31 @@ img:hover {
     .link-text {
         font-size: large;
         font-weight: bold;
-        background-color: #e600d2;
+        background-color: black;
         color: white;
         padding: 0.5rem;
         border-radius: 7px;
         box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
     }
 
-    .container {
-        width: 90%;
-        background-color: #5d5d5d42;
+    .projects-container {
+        display: flex;
+        flex-direction: column;
     }
 
     a {
         width: 2rem;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin: 1rem 1rem;
+        width: 100%;
     }
     
 

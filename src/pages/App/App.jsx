@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer"
 import About from '../../components/About/About';
 import ProductDisplay from '../../components/ProductDisplay/ProductDisplay';
 import Header from '../../components/Header/Header';
-import Particles from 'react-particles-js';
+import Skills from "../../components/Skills/Skills";
 
 const Message = ({ message }) => (
   <section>
@@ -33,14 +33,17 @@ export default function App() {
       );
     }
   }, []);
+
+  const [selected, setSelected] = useState(false)
  
 
   return (
     <>
     <main className="App">
-      <NavBar />
+      <NavBar selected={selected} setSelected={setSelected}/>
       <Header />
       <About />
+      <Skills selected={selected} setSelected={setSelected}/>
       <Projects />
       <Route path="/checkout">
         {message ? (

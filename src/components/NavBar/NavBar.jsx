@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import "./NavBar.css"
 
 // Not destructuring props this time
-export default function NavBar(props) {
+export default function NavBar() {
  
 
   return (
@@ -25,6 +25,15 @@ export default function NavBar(props) {
         offset={-110}
         >
           About Me
+        </Link>
+        <Link 
+        smooth={true}
+        to="footer" 
+        href="#" 
+        duration={5}
+        offset={-110}
+        >
+          Contact
         </Link>
     </nav>
   );

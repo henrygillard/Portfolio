@@ -13,10 +13,10 @@ export default function Projects() {
                         <img class="activator" alt="project-1" src="https://i.imgur.com/SzaFXIy.png"></img>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">MERN APP: Palette Picker<i class="material-icons right"></i></span>
+                        <span class="card-title activator ">MERN APP: Palette Picker<i class="material-icons right"></i></span>
                         <a href="https://pretty-palette-picker.herokuapp.com/" target="_blank"><span className="link-text">Palette Picker</span></a>
                     </div>
-                    <div class="card-reveal">
+                    <div class="card-reveal grey-text text-darken-4">
                         <span class="card-title grey-text text-darken-4">MERN APP: Palette Picker<i class="material-icons right">close</i></span>
                         <p>Utilized a MERN stack (MongoDB, Express, Node.js) to build a full stack application with create, read, update, delete (CRUD) operations hitting all RESTful API calls.
                         Created an application with a mobile-first approach and styled using Styled-Components and CSS3 with flexbox layouts.
@@ -30,7 +30,7 @@ export default function Projects() {
                         <img class="activator" alt="project-2" src="https://i.imgur.com/TvVcJ3R.png"></img>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Express App: Shop-List<i class="material-icons right"></i></span>
+                        <span class="card-title activator ">Express App: Shop-List<i class="material-icons right"></i></span>
                         <a href="https://henrys-recipe-shopping-list.herokuapp.com/" target="_blank"> <span className="link-text">Shop-List</span></a>
                     </div>
                     <div class="card-reveal">
@@ -47,7 +47,7 @@ export default function Projects() {
                         <img class="activator" alt="project-3" src="https://i.imgur.com/udqK9k1.png"></img>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Python/Django APP: Vacations<i class="material-icons right"></i></span>
+                        <span class="card-title activator ">Python/Django APP: Vacations<i class="material-icons right"></i></span>
                         <a href="http://alephnullvacations.herokuapp.com/" target="_blank"><span className="link-text">Aleph Null Vacations</span></a>
                     </div>
                     <div class="card-reveal">
@@ -63,7 +63,7 @@ export default function Projects() {
                         <img class="activator" alt="project-4" src="https://i.imgur.com/ay6pUHK.png"></img>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">HTML/CSS/Javascript Game: BlackJack<i class="material-icons right"></i></span>
+                        <span class="card-title activator ">HTML/CSS/Javascript Game: BlackJack<i class="material-icons right"></i></span>
                         <a href="https://henrygillard.github.io/BlackJackGame/" target="_blank"><span className="link-text">Casino BlackJack</span></a>
                     </div>
                     <div class="card-reveal">

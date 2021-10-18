@@ -13,3 +13,24 @@
     margin: 0;
     
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .header-container {
+        background-image: url(https://i.imgur.com/lSEcFmi.jpg);
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: small;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+    
