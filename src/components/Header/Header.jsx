@@ -1,5 +1,5 @@
 import "./Header.css"
-import { React } from "react"
+import  React  from "react"
 import Typed from "react-typed";
 
 export default function Header() {

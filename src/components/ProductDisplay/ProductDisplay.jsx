@@ -1,6 +1,6 @@
 import Button from '@material-ui/core/Button';
 import "./ProductDisplay.css"
-import { React } from "react"
+import React  from "react"
 
 
 export default function ProductDisplay() {
