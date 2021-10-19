@@ -1,5 +1,6 @@
 import "./Skills.css"
 import { useState } from "react";
+import { React } from "react"
 
 
 export default function Skills({ selected, setSelected }) {

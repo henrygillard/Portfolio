@@ -6,6 +6,7 @@ import ProductDisplay from "../ProductDisplay/ProductDisplay";
 import { useState } from "react";
 import "./Footer.css"
 import { Link } from "react-scroll";
+import { React } from "react"
 
 
   
