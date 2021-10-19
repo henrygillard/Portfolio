@@ -28,33 +28,27 @@ export default function NavBar(props) {
         <a href="https://www.linkedin.com/in/henrygillard/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
       </div>
       <div className="footer-nav">
-        <Link 
-          duration={5}
-          smooth={true}
-          to="projects" 
-          href="#"
-          offset={-110}
-          >
-          My Projects
-          </Link>
-          <Link 
-          smooth={true}
-          to="about" 
-          href="#" 
-          duration={5}
-          offset={-110}
-          >
-            About Me
-        </Link>
-          <Link 
-          smooth={true}
-          to="home" 
-          href="#" 
-          duration={5}
-          offset={-110}
-          >
-            Home
-        </Link>
+        <div 
+        onClick={() => {
+          const anchor = document.querySelector('#projects')
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}}
+        >
+        My Projects
+      </div>
+      <div 
+        onClick={() => {
+          const anchor = document.querySelector('#about')
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}}
+        >
+        About Me
+      </div>
+      <div 
+        onClick={() => {
+          const anchor = document.querySelector('#home')
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}}
+        >
+        Home
+      </div>
       </div>
       <div className="coffee-button">
           <ProductDisplay />

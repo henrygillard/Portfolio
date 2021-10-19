@@ -1,5 +1,6 @@
-import { Link } from "react-scroll";
 import  React  from "react"
+import { Link as Scroll} from "react-scroll";
+
 
 import "./NavBar.css"
 
@@ -9,33 +10,27 @@ export default function NavBar() {
 
   return (
     <nav>
-        <Link 
-        duration={5}
-        smooth={true}
-        to="projects" 
-        href="#"
-        offset={-110}
+      <div 
+        onClick={() => {
+          const anchor = document.querySelector('#projects')
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}}
         >
         My Projects
-        </Link>
-        <Link 
-        smooth={true}
-        to="about" 
-        href="#" 
-        duration={5}
-        offset={-110}
+      </div>
+      <div 
+        onClick={() => {
+          const anchor = document.querySelector('#about')
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}}
         >
-          About Me
-        </Link>
-        <Link 
-        smooth={true}
-        to="footer" 
-        href="#" 
-        duration={5}
-        offset={-110}
+        About Me
+      </div>
+      <div 
+        onClick={() => {
+          const anchor = document.querySelector('#footer')
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}}
         >
-          Contact
-        </Link>
+        Contact
+      </div>
     </nav>
   );
 }

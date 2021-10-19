@@ -20,9 +20,13 @@ footer {
 
 .footer-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     margin: 1rem;
+}
+
+.footer-nav div:hover {
+    border-bottom: 0.1875rem solid white;
 }
 
 footer > .social-links {

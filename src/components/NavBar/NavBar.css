@@ -1,6 +1,7 @@
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     margin: 0;
     background-color: black;
     height: 100%;
@@ -12,13 +13,13 @@ nav {
     justify-content: space-around;
 }
 
-nav a {
+nav div {
     width: 100%;
     border-bottom: solid thin;
 
 }
 
-nav a:hover {
+nav div:hover {
     background-color: #a5a1a1;
 }
 
