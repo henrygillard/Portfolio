@@ -31,21 +31,21 @@ export default function NavBar(props) {
         <div 
         onClick={() => {
           const anchor = document.querySelector('#projects')
-          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}}
+          anchor.scrollIntoView({ behavior: 'smooth' })}}
         >
         My Projects
       </div>
       <div 
         onClick={() => {
           const anchor = document.querySelector('#about')
-          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}}
+          anchor.scrollIntoView({ behavior: 'smooth' })}}
         >
         About Me
       </div>
       <div 
         onClick={() => {
           const anchor = document.querySelector('#home')
-          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}}
+          anchor.scrollIntoView({ behavior: 'smooth' })}}
         >
         Home
       </div>

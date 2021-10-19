@@ -1,6 +1,7 @@
 import "./Skills.css"
 import { useState } from "react";
 import  React  from "react"
+import Collapse from 'react-bootstrap/Collapse'
 
 
 export default function Skills({ selected, setSelected }) {
