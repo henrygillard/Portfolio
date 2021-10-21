@@ -1,11 +1,63 @@
+.nav-wrapper {
+    background-color: black;
+    display: inline;
+}
+
 nav {
+    background-color: black;
+}
+
+nav ul a:hover {
+    background-color: grey;
+}
+
+.sidenav {
+    background-color: black;
+    width: 10rem;
+}
+
+.sidenav li a {
+    color: white;
+}
+
+.sidenav li {
+    border-bottom: white solid thin;
+
+}
+
+.brand-logo img {
+    width: 15rem;
+    margin: 0;
+    border: none;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: inline;
+    }
+
+    .brand-logo {
+        display: flex;
+        position: relative;
+        width: 19rem;
+    }
+}
+
+/* nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 0;
     background-color: black;
     height: 100%;
     width: 100%;
+}
+
+.nav-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
 }
 
 .social-links {
@@ -13,18 +65,96 @@ nav {
     justify-content: space-around;
 }
 
-nav div {
+#regular-nav {
+    background-color: black;
+    display: flex;
+    height: 5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid white thin;
+}
+
+#regular-nav >div:hover {
+    background-color: grey;
+}
+
+
+
+.sidenav {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 15rem;
+    left: 0;
+    top: 0;
+    margin: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    height: 100%;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+
+.sidenav > div:hover {
+    background-color: grey;
+}
+
+.regular-nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    border-bottom: solid thin;
+    color: white;
+    height: 100%;
 
 }
 
 nav div:hover {
-    background-color: #a5a1a1;
+    cursor: pointer;
 }
 
 
 @media screen and (max-width: 600px) {
+
+
+    .nav-wrapper > a{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .sidenav {
+        
+        background-color: black;
+        color: white;
+        position: fixed;
+        width: 15rem;
+        left: 0;
+        top: 0;
+        margin: 0;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        height: 100%;
+        height: calc(100% + 60px);
+        height: -moz-calc(100%);
+        padding-bottom: 60px;
+        z-index: 999;
+        overflow-y: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform: translateX(-105%);
+        transform: translateX(-105%);
+    }
+    
     nav {
         display: flex;
         flex-direction: row;
@@ -43,4 +173,10 @@ nav div:hover {
         width: 100%;
         border-bottom: none;
     }
-}
+
+    .sidenav-trigger {
+        display: flex;
+        justify-content: start;
+    }
+
+} */
