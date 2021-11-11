@@ -11,6 +11,22 @@ export default function Projects() {
             <div className="links">
                 <div className="card">
                     <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" alt="project-1" src="https://i.imgur.com/i8gs9SN.png"></img>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator ">MERN APP: Marching Arts DB<i class="material-icons right"></i></span>
+                        <a href="https://marchingartsdb.herokuapp.com/" target="_blank"><span className="link-text">Marching Arts DB</span></a>
+                    </div>
+                    <div class="card-reveal grey-text text-darken-4">
+                        <span class="card-title grey-text text-darken-4">MERN APP: Marching Arts DB<i class="material-icons right">close</i></span>
+                        <p>Utilized a MERN stack (MongoDB, Express, Node.js) to build a full stack application with create, read, update, delete (CRUD) operations hitting all RESTful API calls.
+                        Created an application with a mobile-first approach and styled using Styled-Components and CSS3 with flexbox layouts.
+                        The app allows a user to sign in using JWT token Authentication.</p>
+                        <a href="https://marchingartsdb.herokuapp.com/" target="_blank"><span className="link-text">Check It Out!</span></a>
+                    </div>
+                </div>
+                <div className="card">
+                    <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" alt="project-1" src="https://i.imgur.com/SzaFXIy.png"></img>
                     </div>
                     <div class="card-content">
