@@ -11,6 +11,10 @@
     background-color: #252424;
 }
 
+img.activator {
+    max-width: 39rem;
+}
+
 .card-reveal > p {
     color: black;
 }
@@ -102,6 +106,10 @@ img:hover {
         width: 2rem;
     }
 
+    img.activator {
+        width: 25rem;
+    }
+
     .links {
         display: flex;
         flex-direction: column;
@@ -110,7 +118,7 @@ img:hover {
 
     .card {
         margin: 1rem 1rem;
-        width: 100%;
+        width: auto;
     }
     
 

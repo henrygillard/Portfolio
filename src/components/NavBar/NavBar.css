@@ -42,6 +42,22 @@ nav ul a:hover {
         position: relative;
         width: 19rem;
     }
+
+    .sidenav li {
+        height: 5rem;
+        border-bottom: white solid thin;
+        align-items: center;
+        display: flex;
+    }
+
+    .sidenav {
+        background-color: black;
+        width: 10rem;
+    }
+
+    .sidenav li:hover {
+        background-color: grey;
+    }
 }
 
 /* nav {

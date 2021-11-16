@@ -51,7 +51,7 @@ button:focus {
     }
 
     .skills-container {
-        margin: 1rem 0;
+        margin: 1rem;
     }
 
     .skills-cards {
@@ -63,7 +63,7 @@ button:focus {
     .skill-card {
         border: solid white;
         color: white;
-        width: 16rem;
+        width: 70%;
         margin-bottom: 1rem;
     }
 }
