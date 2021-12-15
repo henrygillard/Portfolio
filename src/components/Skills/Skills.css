@@ -2,9 +2,8 @@
     transition: 0.5s cubic-bezier(0.01, 0.53, 0.76, 0.98);
     background-color: black;
     padding: 1rem;
-    border-top: white solid;
-    border-bottom: white solid;
-    margin-bottom: 1rem;
+    border-top: white 1rem solid;
+    border-bottom: white 1rem solid;
     
 }
 
