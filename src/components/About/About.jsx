@@ -47,8 +47,8 @@ export default function Projects() {
                   },
                 },
               }}/>
-              <p>I am an aspiring Software Developer, 
-                  recently graduated form General Assembly’s Software Engineering Immersive Program, 
+              <p>I am a Software Developer, 
+                  student of General Assembly’s Software Engineering Immersive Program, 
                   and a Musician. I love blending my passion for creativity/art with tech. 
                   My favorite pieces of art are those that are crafted with ingenuity/design at the fore-front, 
                   and are executed with simplicity. I’m competitive with mostly everything I try to create, 

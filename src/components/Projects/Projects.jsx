@@ -27,6 +27,56 @@ export default function Projects() {
                 </div>
                 <div className="card">
                     <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" alt="project-1" src="https://i.imgur.com/Eis64Iq.png"></img>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator ">Ecommerce StoreFront<i class="material-icons right"></i></span>
+                        <a href="https://test-react-storefront.herokuapp.com/products" target="_blank"><span className="link-text">Ecommerce StoreFront</span></a>
+                    </div>
+                    <div class="card-reveal grey-text text-darken-4">
+                        <span class="card-title grey-text text-darken-4">MERN APP: Marching Arts DB<i class="material-icons right">close</i></span>
+                        <p>Mock eCommerce storefront that uses REST API to display products. Products are organized by Category and displayed dynamically.
+                            Products can be sorted by Price and Rating.
+                        </p>
+                        <a href="https://test-react-storefront.herokuapp.com/products" target="_blank"><span className="link-text">Check It Out!</span></a>
+                    </div>
+                </div>
+                <div className="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" alt="project-4" src="https://i.imgur.com/ay6pUHK.png"></img>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator ">HTML/CSS/Javascript Game: BlackJack<i class="material-icons right"></i></span>
+                        <a href="https://henrygillard.github.io/BlackJackGame/" target="_blank"><span className="link-text">Casino BlackJack</span></a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">HTML/CSS/JAVASCRIPT Game: BlackJack<i class="material-icons right">close</i></span>
+                        <p>An in-browser application that was created using HTML/CSS/JAVASCRIPT. 
+                        Wireframed and planned UI design of application  using Photoshop
+                        Utilized Git control during the production of the application with frequent commits until deployment.
+                        The game is a fully functioning BlackJack game with features such as CSS Card libraries, interactive sound based on game scenarios, and betting logic.
+                        </p>
+                        <a href="https://henrygillard.github.io/BlackJackGame/" target="_blank"><span className="link-text">Check It Out!</span></a>
+                    </div>
+                </div>
+                <div className="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" alt="project-1" src="https://i.imgur.com/bLf7pfB.png"></img>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator ">Sing-Page-App: Static Website<i class="material-icons right"></i></span>
+                        <a href="http://hollymccravey.herokuapp.com/" target="_blank"><span className="link-text">Holly McCravey's Static Web Page</span></a>
+                    </div>
+                    <div class="card-reveal grey-text text-darken-4">
+                        <span class="card-title grey-text text-darken-4">MERN APP: Marching Arts DB<i class="material-icons right">close</i></span>
+                        <p>A Single Page Application created using React. The app displays the static information for a person's business contacts,
+                            achievements, and personal branding statement.
+                        </p>
+                        <a href="http://hollymccravey.herokuapp.com/" target="_blank"><span className="link-text">Check It Out!</span></a>
+                    </div>
+                </div>
+                <div className="card">
+                    <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" alt="project-1" src="https://i.imgur.com/SzaFXIy.png"></img>
                     </div>
                     <div class="card-content">
@@ -75,24 +125,7 @@ export default function Projects() {
                         <a href="http://alephnullvacations.herokuapp.com/" target="_blank"><span className="link-text">Check It Out!</span></a>
                     </div>
                 </div>
-                <div className="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" alt="project-4" src="https://i.imgur.com/ay6pUHK.png"></img>
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator ">HTML/CSS/Javascript Game: BlackJack<i class="material-icons right"></i></span>
-                        <a href="https://henrygillard.github.io/BlackJackGame/" target="_blank"><span className="link-text">Casino BlackJack</span></a>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">HTML/CSS/JAVASCRIPT Game: BlackJack<i class="material-icons right">close</i></span>
-                        <p>An in-browser application that was created using HTML/CSS/JAVASCRIPT. 
-                        Wireframed and planned UI design of application  using Photoshop
-                        Utilized Git control during the production of the application with frequent commits until deployment.
-                        The game is a fully functioning BlackJack game with features such as CSS Card libraries, interactive sound based on game scenarios, and betting logic.
-                        </p>
-                        <a href="https://henrygillard.github.io/BlackJackGame/" target="_blank"><span className="link-text">Check It Out!</span></a>
-                    </div>
-                </div>
+                
             </div>
         </section>
         

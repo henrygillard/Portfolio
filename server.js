@@ -27,7 +27,7 @@ const fulfillOrder = (session) => {
   console.log("Fulfilling order", session);
 }
 
-app.post('/webhook', bodyParser.raw({type: 'application/json'}), (request, response) => {
+app.post('/stripe', bodyParser.raw({type: 'application/json'}), (request, response) => {
   const payload = request.body;
 
   

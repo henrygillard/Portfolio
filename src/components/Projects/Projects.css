@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Roboto+Slab&family=Tillana:wght@500&display=swap');
 
 .card {
-    height: 30rem;
+    max-height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +25,7 @@ span > .card-title {
 
 .links {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     margin: 1rem;
 }
@@ -54,14 +54,19 @@ img:hover {
 }
 
 .card .card-image img {
+    max-width: 40rem;
     display: block;
     border-radius: 2px 2px 0 0;
     position: relative;
     margin: auto;
 }
 
+span {
+    
+}
+
 .link-text {
-    font-size: x-large;
+    font-size: 1rem;
     font-weight: bold;
     background-color: black;
     border: solid white thin;
@@ -88,7 +93,7 @@ img:hover {
     }
 
     .link-text {
-        font-size: large;
+        font-size: medium;
         font-weight: bold;
         background-color: black;
         color: white;
