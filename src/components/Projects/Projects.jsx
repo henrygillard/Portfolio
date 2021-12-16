@@ -31,14 +31,14 @@ export default function Projects() {
                     </div>
                     <div class="card-content">
                         <span class="card-title activator ">Ecommerce StoreFront<i class="material-icons right"></i></span>
-                        <a href="https://test-react-storefront.herokuapp.com/products" target="_blank"><span className="link-text">Ecommerce StoreFront</span></a>
+                        <a href="https://henrys-ecommerce-app.herokuapp.com" target="_blank"><span className="link-text">Ecommerce StoreFront</span></a>
                     </div>
                     <div class="card-reveal grey-text text-darken-4">
                         <span class="card-title grey-text text-darken-4">MERN APP: Marching Arts DB<i class="material-icons right">close</i></span>
                         <p>Mock eCommerce storefront that uses REST API to display products. Products are organized by Category and displayed dynamically.
                             Products can be sorted by Price and Rating.
                         </p>
-                        <a href="https://test-react-storefront.herokuapp.com/products" target="_blank"><span className="link-text">Check It Out!</span></a>
+                        <a href="https://henrys-ecommerce-app.herokuapp.com" target="_blank"><span className="link-text">Check It Out!</span></a>
                     </div>
                 </div>
                 <div className="card">
