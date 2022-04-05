@@ -1,131 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Roboto+Slab&family=Tillana:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Roboto+Slab&family=Tillana:wght@500&display=swap");
 
 .card {
-    max-height: 25rem;
+  max-height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  margin: 1rem;
+  background-color: #252424;
+}
+
+img.activator {
+  max-width: 39rem;
+}
+
+.card-reveal > p {
+  color: black;
+}
+
+span > .card-title {
+  color: white;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: 1rem;
+}
+
+.container > h1 {
+  color: white;
+  font-family: "Kaisei Tokumin", serif;
+}
+
+.card .card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img:hover {
+  /* opacity: 50%; */
+}
+
+.projects-container2 {
+}
+
+.projects-container {
+  overflow: auto;
+  transition: all 0.5s;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #000000;
+  margin-bottom: 1rem;
+  box-shadow: 0px 0px 10px 20px rgb(0 0 0 / 14%),
+    0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.projects-container2 {
+  overflow: auto;
+  transition: all 0.5s;
+  width: 100%;
+  border-radius: 5px;
+  transform: translateX(-100%);
+  background-color: #000000;
+  margin-bottom: 1rem;
+  box-shadow: 0px 0px 10px 20px rgb(0 0 0 / 14%),
+    0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.projects-container3 {
+  overflow: auto;
+  transition: all 0.5s;
+  width: 100%;
+  border-radius: 5px;
+  transform: translateX(-200%);
+  background-color: #000000;
+  margin-bottom: 1rem;
+  box-shadow: 0px 0px 10px 20px rgb(0 0 0 / 14%),
+    0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.card .card-image img {
+  max-width: 40rem;
+  display: block;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  margin: auto;
+}
+
+span {
+}
+
+.link-text {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: black;
+  border: solid white thin;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 7px;
+  box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+    0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+    padding: 1rem;
+  }
+
+  .card {
+    width: 75%;
+    height: 28rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 255, 255);
-    margin: 1rem;
-    background-color: #252424;
-}
+  }
 
-img.activator {
-    max-width: 39rem;
-}
-
-.card-reveal > p {
-    color: black;
-}
-
-span > .card-title {
-    color: white;
-}
-
-.links {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    margin: 1rem;
-}
-
-.container > h1 {
-    color: white;
-    font-family: 'Kaisei Tokumin', serif;
-}
-
-.card .card-title {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-img:hover {
-    /* opacity: 50%; */
-}
-
-.projects-container {
-    margin-top: 1rem;
-    padding: 1rem;
-    border-radius: 5px;
-    background-color: #000000;
-    margin-bottom: 1rem;
-    box-shadow: 0px 0px 10px 20px rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
-}
-
-.card .card-image img {
-    max-width: 40rem;
-    display: block;
-    border-radius: 2px 2px 0 0;
-    position: relative;
-    margin: auto;
-}
-
-span {
-    
-}
-
-.link-text {
-    font-size: 1rem;
+  .link-text {
+    font-size: medium;
     font-weight: bold;
     background-color: black;
-    border: solid white thin;
     color: white;
     padding: 0.5rem;
     border-radius: 7px;
-    box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 14%),
+      0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+  }
+
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    width: 2rem;
+  }
+
+  img.activator {
+    width: 25rem;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin: 1rem 1rem;
+    width: auto;
+  }
 }
-
-@media screen and (max-width: 600px) {
-
-    h1 {
-        font-size: 3rem;
-        padding: 1rem;
-    }
-
-    .card {
-        width: 75%;
-        height: 28rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .link-text {
-        font-size: medium;
-        font-weight: bold;
-        background-color: black;
-        color: white;
-        padding: 0.5rem;
-        border-radius: 7px;
-        box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
-    }
-
-    .projects-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    a {
-        width: 2rem;
-    }
-
-    img.activator {
-        width: 25rem;
-    }
-
-    .links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        margin: 1rem 1rem;
-        width: auto;
-    }
-    
-
-}
-
