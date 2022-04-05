@@ -41,25 +41,25 @@ export default function VerticalTimelineComponent() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2008 - 2010"
+        date="2020 - Current"
         iconStyle={{ background: "#e9f400", color: "#fff" }}
         // icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-        <p>User Experience, Visual Design</p>
+        <h3 className="vertical-timeline-element-title">
+          Freelance Software Engineer
+        </h3>
+        <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+        <p>JavaScript, TailwindCSS, React, Next.Js, Python, Django </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2006 - 2008"
+        date="2020 - Current"
         iconStyle={{ background: "#e9f400", color: "#fff" }}
         // icon={<WorkIcon />}
       >
         <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">
-          San Francisco, CA
-        </h4>
-        <p>User Experience, Visual Design</p>
+        <h4 className="vertical-timeline-element-subtitle">Freelance</h4>
+        <p>User Experience, Visual Design, Subscription Services</p>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );
